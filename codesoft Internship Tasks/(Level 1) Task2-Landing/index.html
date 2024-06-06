@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghana Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CodeSoft Internship</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Your success starts here.</p>
+            <a href="#contact" class="cta" onclick="displayMessage()">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-item">
+            <h3>Effortless Efficiency</h3>
+            <p>This feature allows you to do amazing things effortlessly and efficiently.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Seamless Integration</h3>
+            <p>Enhance your productivity with this feature, designed to save you time.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Advanced Organization</h3>
+            <p>Get more done with advanced tools that help you stay organized.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-item">
+            <p>"This is a testimonial from a satisfied customer. It has completely transformed the way I work."</p>
+            <p>- John Doe</p>
+        </div>
+        <div class="testimonial-item">
+            <p>"Another testimonial from a happy user. The features are incredibly useful."</p>
+            <p>- Jane Smith</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2024 Your Company. All rights reserved.<br/>
+            Owner-Challa Meghana <br/>
+            Web Development Internship(Level 1:- Task 2)
+        </p>
+    </footer>
+
+    <script>
+        function displayMessage() {
+            alert("Thank you for getting started! Please fill out the contact form.");
+        }
+    </script>
+</body>
+</html>
